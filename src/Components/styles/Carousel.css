@@ -1,0 +1,67 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: -100px;
+}
+
+
+.carousel .current {
+    z-index: 20;
+}
+.carousel .preview {
+    z-index: 10;
+    top: 50%;
+}
+
+.carousel .previous-hidden {
+    margin-right: -140px;
+}
+
+.carousel .next-hidden {
+    margin-left: -140px;
+}
+
+.carousel .preview.previous {
+    margin-right: -100px;
+}
+
+.carousel .preview.next {
+    margin-left: -100px;
+}
+
+.carousel button {
+    z-index: 20;
+    /* Rest of your button styling */
+}
+
+
+.carousel img {
+    transition: transform 1s, opacity 1s;
+}
+
+.current img {
+    transition: transform 1s, width 1s, height 1s;
+}
+
+.moving {
+    transform: translateX(60px);
+}
+
+.shrinking {
+    transform: scale(0.7);
+}
+
+.growing {
+    transform: scale(1.3);
+}
+
+.disappearing {
+    opacity: 0;
+}
+
+button:focus, button:active {
+    outline: none;
+    border: none;
+}
+

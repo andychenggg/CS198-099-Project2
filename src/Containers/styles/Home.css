@@ -1,0 +1,30 @@
+#background {
+    width: 100%; /* 图片宽度充满容器宽度 */
+    height: 100vh; /* 图片高度充满整个视口高度 */
+    object-fit: cover; /* 保证图片覆盖整个容器且内容按比例缩放 */
+    position: absolute; /* 绝对定位 */
+    z-index: -1; /* 确保图片在最底层 */
+    left: 0; /* 与左侧对齐 */
+    right: 0; /* 与右侧对齐 */
+    filter: brightness(50%); /* 调暗图片亮度 */
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 10;
+}
+
+
+
+
+#mb {
+    width: 60%;
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 30px;
+    z-index: 10;
+}

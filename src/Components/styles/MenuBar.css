@@ -1,0 +1,30 @@
+#m-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: transparent;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: space-between; /* 在子元素之间添加空间，推动最后一个元素到右端 */
+    width: 100%;
+    left: 0;
+    position: absolute;
+    right: 60px;
+    z-index: 10;
+}
+
+.image-container {
+    width: 75px;
+    height: 75px;
+    margin-left: 50px;
+}
+
+.menu-bar-container {
+    flex-grow: 1; /* 占用剩余空间 */
+    max-width: 70%; /* 最大宽度为容器的70% */
+}
+

@@ -1,0 +1,26 @@
+#m-button {
+    display: inline-block; /* 或者 'block' 取决于您的布局需要 */
+    /*padding: 10px 20px; !* 按钮内部的空间，可根据需要调整 *!*/
+    background-color: transparent; /* 按钮背景颜色 */
+    /*border: 5px solid transparent; !* 边框颜色和宽度 *!*/
+    /*border-bottom: none; !* 移除底部边框 *!*/
+    /*border-radius: 10px 10px 0 0; !* 圆角的大小，可以根据您的设计调整 *!*/
+    text-align: center; /* 文本居中 */
+    text-decoration: none; /* 如果是<a>标签，去掉下划线 */
+    cursor: pointer; /* 鼠标悬停时的指针形状 */
+    width: 200px;
+    margin-bottom: 0;
+    /* font */
+    font-size: 25px; /* 字体大小，可根据需要调整 */
+    font-weight: bold; /* 字体加粗 */
+    color: white; /* 文本颜色 */
+}
+
+
+#m-button:hover {
+    border: transparent;
+    /*border: 5px solid #fdb515; !* 边框颜色和宽度 *!*/
+    /*border-bottom: none; !* 移除底部边框 *!*/
+    color: #fdb515; /* 鼠标悬停时的文本颜色 */
+}
+

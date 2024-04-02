@@ -1,0 +1,10 @@
+.cursor {
+    opacity: 1;
+    animation: blink 0.3s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
