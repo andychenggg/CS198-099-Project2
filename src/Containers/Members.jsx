@@ -2,14 +2,9 @@ import MenuBar from "../Components/MenuBar.jsx";
 import {COLOR_SCHEME} from "../Configurations/constants.jsx";
 import BioInfo from "../Components/BioInfo.jsx";
 import "./styles/Members.css"
-import wave from "../../public/images/bg/wave-removebg-preview.png"
 
 
 import bio_json from "../../public/texts/bioInfo.json"
-import React from "react";
-import InstagramEmbed from "../Components/InstagramEmbed.jsx";
-import white_bear from "../../public/images/noteworthy bear-01.png";
-import black_bear from "../../public/images/noteworthy bear-01-black.png";
 
 const Members = () => {
     const bc_style = {

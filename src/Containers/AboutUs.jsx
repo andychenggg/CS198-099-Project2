@@ -7,7 +7,6 @@ import eventImg from "../../public/images/events/filenames.json";
 import 'element-theme-default';
 import {Carousel} from "element-react";
 import hireUs from "../../public/images/hire-us/Copy of Noteworthy-at-ST-City-Hall.jpg"
-import SingleImageViewer from "../Components/SimgleImageViewer.jsx";
 import { PhotoProvider, PhotoView } from 'react-photo-view'
 import fb_svg from "../../public/images/follow-us/facebook.svg"
 import ins_svg from "../../public/images/follow-us/instagram.svg"
@@ -29,6 +28,7 @@ const AboutUs = () => {
         lineHeight: "29px"
     }
 
+    // eslint-disable-next-line no-unused-vars
     const bt_style = {
         backgroundColor: "transparent",
         margin: "5px",
